@@ -54,3 +54,8 @@ body:
     attributes:
       label: やらなかったこと
       placeholder: 今後やると良さそうなことを書く
+  - type: textarea
+    id: remarks
+    attributes:
+      label: 備考
+      placeholder: 備考があればここに書いてください。
