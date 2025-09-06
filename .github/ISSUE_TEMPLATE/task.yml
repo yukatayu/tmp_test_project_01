@@ -13,7 +13,7 @@ body:
         ・ 例）グラフ描画機能のUI追加
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: scope
     attributes:
       label: 対応領域
@@ -33,12 +33,11 @@ body:
       label: 依存する Issue
       description: 先に解決しないと進められない Issue があれば記入してください
       placeholder: "例） #1234"
-  - type: checkboxes
+  - type: textarea
     id: todos
     attributes:
-      label: やること
-      options:
-        - label: 例） API の実装， UI の更新 等
+      label: やるべきこと
+      placeholder: 例） API の実装， UI の更新 等
     validations:
       required: true
   - type: textarea
