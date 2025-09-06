@@ -52,8 +52,3 @@ body:
     id: outofscope
     attributes:
       label: やらなかったこと（今後やると良さそうなこと）
-  - type: input
-    id: due
-    attributes:
-      label: 期日（任意）
-      placeholder: 2025-09-12
