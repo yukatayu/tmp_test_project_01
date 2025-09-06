@@ -36,8 +36,10 @@ body:
   - type: textarea
     id: todos
     attributes:
-      label: やるべきこと
-      placeholder: 例） API の実装， UI の更新 等
+      label: やること
+      placeholder: |
+        - [ ] API の実装
+        - [ ] UI の更新
     validations:
       required: true
   - type: textarea
