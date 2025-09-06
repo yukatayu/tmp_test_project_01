@@ -7,7 +7,7 @@ body:
     id: background
     attributes:
       label: 背景 / 目的
-      description: 期待する効果
+      description: 期待する効果を入力してください
       placeholder: |
         ・ 例）レビュー効率の改善
         ・ 例）グラフ描画機能のUI追加
@@ -31,7 +31,8 @@ body:
     id: dependencies
     attributes:
       label: 依存する Issue
-      description: 先に解決しないと進められない Issue があれば記入してください（例： ＃1234）
+      description: 先に解決しないと進められない Issue があれば記入してください
+      placeholder: "例） #1234"
   - type: checkboxes
     id: todos
     attributes:
@@ -51,4 +52,5 @@ body:
   - type: textarea
     id: outofscope
     attributes:
-      label: やらなかったこと（今後やると良さそうなこと）
+      label: やらなかったこと
+      placeholder: 今後やると良さそうなことを書く
