@@ -8,11 +8,11 @@ body:
     attributes:
       label: 背景 / 目的
       description: 期待する効果
+      placeholder: |
+        ・ 例）レビュー効率の改善
+        ・ 例）グラフ描画機能のUI追加
     validations:
       required: true
-    placeholder: |
-      ・ 例）レビュー効率の改善
-      ・ 例）グラフ描画機能のUI追加
   - type: dropdown
     id: scope
     attributes:
@@ -52,4 +52,8 @@ body:
     id: outofscope
     attributes:
       label: やらなかったこと（今後やると良さそうなこと）
-
+  - type: input
+    id: due
+    attributes:
+      label: 期日（任意）
+      placeholder: 2025-09-12
