@@ -31,7 +31,8 @@ body:
     id: dependencies
     attributes:
       label: 依存する Issue
-      description: 先に解決しないと進められない Issue があれば記入してください（例： ＃1234）
+      description: 先に解決しないと進められない Issue があれば記入してください
+      placeholder: 例） #1234
   - type: checkboxes
     id: todos
     attributes:
@@ -52,3 +53,8 @@ body:
     id: outofscope
     attributes:
       label: やらなかったこと（今後やると良さそうなこと）
+  - type: textarea
+    id: details
+    attributes:
+      label: 詳細の説明
+
