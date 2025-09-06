@@ -19,12 +19,12 @@ body:
       label: 対応領域
       description: このタスクが属する領域を選択してください
       options:
-        - Frontend
-        - BackEnd (API Gateway)
-        - BackEnd (Agent-Runner)
-        - Infra
-        - Documents
-        - Other
+        - label: Frontend
+        - label: BackEnd (API Gateway)
+        - label: BackEnd (Agent-Runner)
+        - label: Infra
+        - label: Documents
+        - label: Other
     validations:
       required: true
   - type: textarea
